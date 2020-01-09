@@ -54,6 +54,7 @@ public class StackedLayout extends LinearLayout {
     }
 
     public void clear() {
-
+        removeAllViews();
+        
     }
 }
